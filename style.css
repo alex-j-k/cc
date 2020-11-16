@@ -1,0 +1,83 @@
+body{
+    background: lightblue;
+    display: flex;
+    justify-content: center;
+
+}
+
+.wrapper{
+    display: flex;
+    width: 80vw;
+    max-width: 900px;
+    height: 100vh;
+    background: cornsilk;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.characterslab{
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+    height: 20vh;
+    min-height: 120px;
+    background: lightgray;
+    margin-top: 1%;
+    align-items: center;
+    box-shadow: 10px 10px #888888;
+    border-radius: 1%;
+}
+/* .circlebox{
+    height: 90%;
+    min-height:;
+    width: 14vh;
+    background: crimson;
+
+} */
+.maincharacter{
+    display: flex;
+    min-height: 90px;
+    min-width: 90px;
+    border-radius: 50%;
+    background: cornflowerblue;
+    margin-left: 2%;
+    justify-content: center;
+
+}
+
+h1{
+font-weight: bolder;
+transform: translateX(-5%);
+
+}
+
+.infoandlist{
+    display: flex;
+    flex-direction: column;
+    margin-left: 0%;
+    justify-content: center;
+    
+}
+
+.info{
+display: flex;
+flex-direction: row;
+margin-bottom: 1%;
+width: 800px;
+}
+
+.list{
+    width: 800px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+p{
+    font-size: 26px;
+    font-weight: bold;
+    margin: 0%;
+    margin-left: 4%;
+}
