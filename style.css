@@ -188,6 +188,8 @@ p{
 
 .infoB{
     flex-direction: column;
+    height: 100%;
+    justify-content: space-evenly;
 }
 
 .maincharacterB{
