@@ -46,7 +46,10 @@ body{
     background: cornflowerblue;
     margin-left: 2%;
     justify-content: center;
+}
 
+.characterslab:active{
+    background-color:lightblue;
 }
 
 h1{
@@ -54,6 +57,7 @@ font-weight: bolder;
 transform: translateX(-5%);
 
 }
+
 
 .infoandlist{
     display: flex;
@@ -199,6 +203,8 @@ p{
     height: 60px;
     background:lightgray;
     margin-top: 12%;
+    margin-top: 8%;
+    width: 80%;
 }
 
 .pmain{
@@ -207,11 +213,9 @@ p{
 .characterslab{
     margin-top: 9%;
 }
-.confusingslab{
-    margin-top: 8%;
-    width: 80%;
 
-}
+
+
 .confusingslabcontainer{
     margin-left: 40px;
 }
