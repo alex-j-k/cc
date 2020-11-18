@@ -192,7 +192,7 @@ p{
 }
 
 .h1b{
-    font-size: 1.2em;
+    font-size: 1.1em;
 }
 
 .confusingslab{
@@ -202,16 +202,16 @@ p{
 }
 
 .pmain{
-    font-size: 1.5rem;
+    font-size: 1.3rem;
 }
 .characterslab{
     margin-top: 9%;
 }
 .confusingslab{
-    margin-top: 11%;
+    margin-top: 8%;
 }
 .confusingslabcontainer{
-    margin-left: 20px;
+    margin-left: 40px;
 }
 
 
