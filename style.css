@@ -4,19 +4,25 @@ body{
     justify-content: center;
 
 }
+/*CENTRAL COLUMN WITH CALIGRAPHY BACKGROUND*/
 
 .wrapper{
     display: flex;
     width: 80vw;
     max-width: 900px;
-    height: 100vh;
+    height: 100%;
     background: cornsilk;
     justify-content: start;
     align-items: center;
     flex-direction: column;
-
+    background-image: url('characterbackground.jpg');
+    background-size: 100%;
+    padding-bottom: 5%;
+    
 }
 
+
+/*MAIN CHARACTER SLAB AND CHILDREN*/
 .characterslab{
     display: flex;
     flex-direction: row;
@@ -24,18 +30,14 @@ body{
     height: 20vh;
     min-height: 120px;
     background: lightgray;
-    margin-top: 1%;
+    margin-top: 4%;
     align-items: center;
-    box-shadow: 10px 10px #888888;
+    /* box-shadow: 10px 10px #888888; */
     border-radius: 1%;
+    box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.5);
+    
 }
-/* .circlebox{
-    height: 90%;
-    min-height:;
-    width: 14vh;
-    background: crimson;
 
-} */
 .maincharacter{
     display: flex;
     min-height: 90px;
@@ -76,8 +78,137 @@ width: 800px;
 }
 
 p{
-    font-size: 26px;
+    font-size: 1.5rem;
     font-weight: bold;
     margin: 0%;
     margin-left: 4%;
+}
+
+/*SLAB OF SIMILAR CHARACTERS AND CHILDREN*/
+
+.confusingslabcontainer{
+    display: flex;
+    flex-direction: column;
+    display:none;
+        width: 100%;
+    margin-left: 80px;
+}
+
+.confusingslab{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    height: 120px;
+    background:lightgray;
+    margin-top: 4%;
+    margin-bottom: 0%;
+    align-items: center;
+    /* box-shadow: 10px 10px #888888; */
+    border-radius: 1%;
+    box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.2);
+    opacity: 0.75;
+
+}
+.maincharacterB{
+    display: flex;
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    background: cornflowerblue;
+    margin-left: 2%;
+    justify-content: center;
+
+}
+/* .infoandlistB{
+    display: flex;
+    flex-direction: column;
+    margin-left: 0%;
+    justify-content: center;
+    
+} */
+
+.infoB{
+display: flex;
+flex-direction: row;
+margin-left: 3%;
+margin-bottom: 1%;
+/* width: 20%; */
+flex: 1;
+}
+
+.radicals{
+    justify-content: center;
+    /* width: 60%; */
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    height: 90%;
+}
+
+.rad1{
+    display: flex;
+    flex-direction: row;
+}
+
+.r{
+flex: 1;
+}
+
+.p{
+    flex: 1;
+
+}
+
+.m{
+    flex: 1;
+    /* justify-content: center; */
+}
+
+
+
+
+    /* SCREEN RESIZE */
+
+
+@media only screen and (max-width: 900px) {
+    
+
+
+
+p{
+    font-size: 0.8rem;
+    font-weight: bold;
+    margin: 0%;
+    margin-left: 4%;
+}
+
+.infoB{
+    flex-direction: column;
+}
+
+.maincharacterB{
+    height: 50px;
+    width: 50px;
+}
+
+.h1b{
+    font-size: 1.2em;
+}
+
+.confusingslab{
+    height: 60px;
+    background:lightgray;
+    margin-top: 8%;
+}
+
+.pmain{
+    font-size: 1.5rem;
+}
+.characterslab{
+    margin-top: 6%;
+}
+.confusingslab{
+    margin-top: 6%;
+}
+
 }
