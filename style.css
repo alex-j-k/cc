@@ -176,7 +176,7 @@ flex: 1;
 
 
 p{
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     font-weight: bold;
     margin: 0%;
     margin-left: 4%;
@@ -198,7 +198,7 @@ p{
 .confusingslab{
     height: 60px;
     background:lightgray;
-    margin-top: 8%;
+    margin-top: 12%;
 }
 
 .pmain{
@@ -208,7 +208,7 @@ p{
     margin-top: 9%;
 }
 .confusingslab{
-    margin-top: 9%;
+    margin-top: 11%;
 }
 .confusingslabcontainer{
     margin-left: 20px;
