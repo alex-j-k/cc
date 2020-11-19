@@ -2,7 +2,6 @@ body{
     background: lightblue;
     display: flex;
     justify-content: center;
-
 }
 /*CENTRAL COLUMN WITH CALIGRAPHY BACKGROUND*/
 
@@ -12,7 +11,7 @@ body{
     max-width: 900px;
     height: 100%;
     background: cornsilk;
-    justify-content: start;
+    justify-content: ce;
     align-items: center;
     flex-direction: column;
     background-image: url('characterbackground.jpg');
@@ -64,20 +63,23 @@ transform: translateX(-5%);
     flex-direction: column;
     margin-left: 0%;
     justify-content: center;
-    
+    width: 100%;
+
 }
 
 .info{
 display: flex;
 flex-direction: row;
 margin-bottom: 1%;
-width: 800px;
+margin-left: 3%;
+width: 100%;
 }
 
 .list{
-    width: 800px;
     display: flex;
     flex-direction: row;
+    margin-left: 3%;
+    width: 100%;
 
 }
 
@@ -110,7 +112,7 @@ p{
     /* box-shadow: 10px 10px #888888; */
     border-radius: 1%;
     box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.2);
-    opacity: 0.75;
+    opacity: 0.85;
 
 }
 .maincharacterB{
@@ -176,7 +178,10 @@ flex: 1;
 
 @media only screen and (max-width: 900px) {
     
+.wrapper{
+    width: 90vw;
 
+}
 
 
 p{
@@ -206,7 +211,7 @@ p{
     background:lightgray;
     margin-top: 12%;
     margin-top: 8%;
-    width: 80%;
+    width: 85%;
 }
 
 .pmain{
@@ -214,6 +219,8 @@ p{
 }
 .characterslab{
     margin-top: 9%;
+    width: 90%;
+
 }
 
 
