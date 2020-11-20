@@ -89,5 +89,38 @@ for (var i = 0; i < characterSlabs.length; ++i) {
 }
 }, 2000 );
 
-console.log(window.innerWidth)
 
+
+//SORT CHARACTERS BY PINYIN
+const testArray = ['歇', '曷', '喝', '渴', '揭'];
+console.log(testArray);
+testArray.sort();
+console.log(testArray);
+
+
+console.dir(testArray.sort(function(a, b){
+    return a.localeCompare(b, [ "zh-CN-u-co-pinyin" ]); 
+}));
+console.log(testArray);
+
+
+
+
+
+
+
+
+
+
+
+const endpointsss = 'http://ccdb.hemiola.com/characters/mandarin/definition/radicals/peng';
+
+const charactersss = [];
+
+fetch(endpointsss)
+    .then(response => response.json())
+    .then(data => charactersss.push(...data))
+    .catch(error => console.error(error));
+
+    console.log(charactersss);
+    console.log(typeof(charactersss));
