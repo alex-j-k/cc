@@ -108,11 +108,6 @@ console.log(testArray);
 
 
 
-
-
-
-
-
 const endpointsss = 'http://ccdb.hemiola.com/characters/mandarin/definition/radicals/peng';
 
 const charactersss = [];
